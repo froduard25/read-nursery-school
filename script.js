@@ -39,9 +39,9 @@ contactForm.addEventListener('submit', event => {
   const message = document.querySelector('#message').value.trim();
 
   // Replace this value with the school's real email address before using the form.
-  const schoolEmail = 'ADD-SCHOOL-EMAIL-HERE';
+  const schoolEmail = 'readnurseryschool@gmail.com';
 
-  if (schoolEmail === 'ADD-SCHOOL-EMAIL-HERE') {
+  if (schoolEmail === 'readnurseryschool@gmail.com') {
     toast.textContent = `Thank you, ${name}! The form works, but the school's real email address must be added before messages can be sent.`;
     toast.classList.add('show');
     window.setTimeout(() => toast.classList.remove('show'), 5000);
